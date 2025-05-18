@@ -61,3 +61,8 @@ This project evaluates and compares the performance of **K-Nearest Neighbors (KN
 SVM emerged as the most effective model for this binary classification task due to its high accuracy and AUC, especially in distinguishing the minority class. KNN is a great fallback when speed is a concern. Naive Bayes, although efficient, underperforms in more complex decision boundaries.
 
 
+👩‍💻 Author
+Razieh Moradi Graduate Student, McMaster University 📫 moradr1@mcmaster.ca
+
+
+
