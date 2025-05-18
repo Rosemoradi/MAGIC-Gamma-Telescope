@@ -60,14 +60,4 @@ This project evaluates and compares the performance of **K-Nearest Neighbors (KN
 
 SVM emerged as the most effective model for this binary classification task due to its high accuracy and AUC, especially in distinguishing the minority class. KNN is a great fallback when speed is a concern. Naive Bayes, although efficient, underperforms in more complex decision boundaries.
 
----
-
-##  How to Run
-
-1. Clone the repo  
-   `git clone https://github.com/yourusername/magic-gamma-classification.git`
-2. Install dependencies  
-   `pip install -r requirements.txt`
-3. Run the notebook or script:  
-   `python gamma_classifier.py` or open `ML_Classification.ipynb`
 
