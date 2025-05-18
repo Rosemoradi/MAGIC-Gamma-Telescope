@@ -19,7 +19,7 @@ This project evaluates and compares the performance of **K-Nearest Neighbors (KN
 
 ## Models & Key Findings
 
-### 1️⃣ K-Nearest Neighbors (KNN)
+### 1️ K-Nearest Neighbors (KNN)
 - **Feature Scaling**: StandardScaler
 - **Hyperparameter Tuning**: GridSearchCV (5-fold)
 - **Best Config**: `n_neighbors=11`, `weights=distance`
@@ -27,26 +27,26 @@ This project evaluates and compares the performance of **K-Nearest Neighbors (KN
   - Accuracy: **84.37%**
   - AUC: 0.90
   - Fast training & testing time  
-- ✅ Good balance of performance and efficiency
+-  Good balance of performance and efficiency
 
-### 2️⃣ Naive Bayes
+### 2 Naive Bayes
 - **PCA Applied**: 95% variance retained (7 components)
 - **Performance**:
   - Accuracy: **75.88%**
   - Fastest model (<0.005s runtime)
-- ⚠️ Struggles with the minority class (Class 1), despite PCA improvement
+-  Struggles with the minority class (Class 1), despite PCA improvement
 
-### 3️⃣ Support Vector Machine (SVM)
+### 3️ Support Vector Machine (SVM)
 - **Best Config**: `C=10`, `gamma=0.1`
 - **With/without PCA tested**: PCA slightly reduced performance
 - **Performance**:
   - Accuracy: **87.11%**
   - AUC: **0.93**
-- 🚀 **Best overall performance**, though slowest to train
+-  **Best overall performance**, though slowest to train
 
 ---
 
-## 📌 Summary Table
+##  Summary Table
 
 | Model       | Accuracy | AUC   | Training Time | Minority Class Recall | Best Use Case                    |
 |-------------|----------|-------|----------------|------------------------|----------------------------------|
@@ -61,8 +61,8 @@ This project evaluates and compares the performance of **K-Nearest Neighbors (KN
 SVM emerged as the most effective model for this binary classification task due to its high accuracy and AUC, especially in distinguishing the minority class. KNN is a great fallback when speed is a concern. Naive Bayes, although efficient, underperforms in more complex decision boundaries.
 
 
-👩‍💻 Author
-Razieh Moradi Graduate Student, McMaster University 📫 moradr1@mcmaster.ca
+ Author
+Razieh Moradi Graduate Student, McMaster University  moradr1@mcmaster.ca
 
 
 
